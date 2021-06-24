@@ -1,0 +1,20 @@
+// Variables shorthand//
+
+var price = 5
+var quantity = 14;
+var total = price * quantity;
+
+//Another different way of declaring variables//
+var priece, quantity, total;
+price = 5;
+quantity = 14;
+total = price * quantity;
+
+//Another one//
+var price = 5,
+    quantity = 14;
+var total = price * quantity;
+
+//Write total into the element with id of  cost//
+var el = document.getElementById('cost');
+el.textContent = '$' + total;
